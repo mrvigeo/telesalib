@@ -237,7 +237,7 @@ config = {
     sudo_users = {167268835,164100672,136888679},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Bot v2 - 
+about_text = [[ Bot v2 - 
 An advance Administration bot based on yagop/telegram-bot 
 
 https://github.com/SEEDTEAM/TeleSeed
@@ -246,6 +246,8 @@ Admins
 @Xx_king_salib_Xx [Sudo]
 @Xx_minister_salib_xX [Sudo]
 @Mr_Vigeo [Sudo]
+
+]]
 Special thanks to
 awkward_potato
 Siyanew
