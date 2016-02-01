@@ -213,6 +213,14 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
+    "block",
+    "calc",
+    "echo",
+    "info",
+    "linkpv",
+    "quran",
+    "s2a",
+    "version",
     "stats",
     "anti_spam",
     "owners",
@@ -229,27 +237,20 @@ function create_config( )
     sudo_users = {167268835,164100672,136888679},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[TeleSalib v1.5
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@Xx_king_salib_Xx [Sudo]
+@Xx_minister_salib_xX [Sudo]
+@Mr_Vigeo [Sudo]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+Mr Vigeo & SBSS Team
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
-]],
+@telesalibch [persian]
     help_text_realm = [[
 Realm Commands:
 
@@ -328,107 +329,104 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+کیک حتی با ریپلی
 
 !ban [ username|id]
-You can also do it by reply
-
+بن حتی با ریپلی
 !unban [id]
-You can also do it by reply
+انبن حتی با ریپلی
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+مدیران
 
 !promote [username]
-Promote someone
+دادن مقام
 
 !demote [username]
-Demote someone
+گرفتن مقام
 
 !kickme
-Will kick user
+لفت دادن
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+ذخیره عکس گروه و قفل ان
 
 !setname [name]
-Set group name
+تغییر نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-return group id or user id
+ایدی گروه و ایدی افراد
 
-!help
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+بستن اعضا - نام گروه - ورود ربات ها - خروج
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+بازکردن اعضا - نام گروه - ورود ربات ها - خروج
 
 !set rules <text>
-Set <text> as rules
+ثبت قوانین گروه
 
 !set about <text>
-Set <text> as about
+ثبت درباره گروه
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساختن لینک جدید
 
 !link
-returns group link
+لینک گروه
 
 !owner
-returns group owner id
+صاحب گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم صاحب گروه حتی با ریپلی
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم اسپم
 
 !stats
-Simple message statistics
+تعداد چت افراد
 
 !save [value] <text>
-Save <text> as [value]
+سیو کردن متنی در پیامی
 
 !get [value]
-Returns text of [value]
+گرفتن متنی در پیامی
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن مدیران - قوانین - درباره گروه
 
 !res [username]
-returns user id
+گرفتن ایدی افراد مثال
 "!res @username"
 
 !log
-will return group logs
+ورودی های گروه
 
 !banlist
-will return group ban list
+لیست افراد بن شده
 
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
+شما میتوانید از "/" و "!" استفاده کنید.
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+صاحبان و مدیران گروه میتوانند ربات اد کنند
 
-*Only owner can use res,setowner,promote,demote and log commands
+
+کارهای بالارا مدیران گروه و صاحبان میتوانند بکنند
+تنها صاحب گروه میتواند کسی را مدیر کند
 
 ]]
   }
