@@ -206,21 +206,13 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
-config = {
+  config = {
     enabled_plugins = {
     "onservice",
     "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
-    "block",
-    "calc",
-    "echo",
-    "info",
-    "linkpv",
-    "quran",
-    "s2a",
-    "version",
     "stats",
     "anti_spam",
     "owners",
@@ -234,20 +226,20 @@ config = {
     "leave_ban",
     "admin"
     },
-    sudo_users = {167268835,164100672,136888679},--Sudo users
+    sudo_users = {(167268835,164100672,136888679)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-about_text = [[ Bot v2 - 
+    about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@Xx_king_salib_Xx [Sudo]
-@Xx_minister_salib_xX [Sudo]
-@Mr_Vigeo [Sudo]
+@iwals [Founder]
+@imandaneshi [Developer]
+@Rondoozle [Developer]
+@seyedan25 [Manager]
 
-]]
 Special thanks to
 awkward_potato
 Siyanew
